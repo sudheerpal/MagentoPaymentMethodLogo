@@ -1,8 +1,8 @@
-This patch will help you adding an logo for payment method (paytm in our case) while checkout.
+This patch will help you adding a logo for payment method (paytm in our case) while checkout.
 
 Location for file - methods.phtml is app/design/frontend/DefaultPackage/DefaultTheme/checkout/onepage/payment
 
-Basically we are checking that if there exist any payment method then display this logo for it.
+Basically we are checking that if there exist any paytm payment method then display this logo for it.
 
 You can put your URL for logo at line #59 in file methods.phtml
 
