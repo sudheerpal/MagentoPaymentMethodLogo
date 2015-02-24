@@ -56,7 +56,7 @@ $oneMethod = count($methods) <= 1;
             <?php endif; ?>
             <label for="p_method_<?php echo $_code ?>">
                 <?php	if($_code== 'paytm_cc'): ?>
-                    <img src=" url to payment logo" class="paytm_logo"/>
+                    <img src="https://github.com/sudheerpal/MagentoPaymentMethodLogo/" class="paytm_logo"/>
                 <?php endif;?>
                 <?php echo $this->escapeHtml($this->getMethodTitle($_method)) ?> <?php echo $this->getMethodLabelAfterHtml($_method) ?></label>
         </div>
